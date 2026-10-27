@@ -1,0 +1,29 @@
+body {
+    background-color: antiquewhite;
+    display: flex;
+    padding: 50px;
+}
+
+main {
+    background-color: aliceblue;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+aside {
+    background-color: hsl(34, 78%, 90%);
+    padding: 2px 20px;
+    border-radius: 10px;
+    border-left: 5px solid brown;
+    height: auto;
+    font-size: small;
+}
+
+aside>h2::before{
+    content: "💡";
+}
